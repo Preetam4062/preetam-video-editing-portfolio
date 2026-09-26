@@ -1,0 +1,682 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Preetam Singh | Premium Video Editor & Motion Designer</title>
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Cinematic video editing portfolio of Preetam Singh. Specializing in Short Form Reels, Commercial Ads, YouTube Videos, Motion Graphics, and Brand Storytelling." />
+    <meta name="keywords" content="Video Editor, Motion Graphics, Preetam Singh, Premiere Pro, After Effects, DaVinci Resolve, Commercial Ads, YouTube Editing, Short Form Content, Reels Editor" />
+    <meta name="author" content="Preetam Singh" />
+    <meta property="og:title" content="Preetam Singh | Premium Video Editor & Motion Designer" />
+    <meta property="og:description" content="I transform raw footage into highly engaging, viral, and cinematic stories." />
+    <meta property="og:type" content="website" />
+    <!-- Preconnect Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  </head>
+  <body>
+    <!-- Preloader -->
+    <div class="preloader" id="preloader">
+      <div class="loader-content">
+        <div class="loader-logo">PREETAM<span>.</span></div>
+        <div class="loader-bar-bg">
+          <div class="loader-bar" id="loader-bar"></div>
+        </div>
+        <div class="loader-status" id="loader-status">Initializing timeline...</div>
+        <div class="loader-percentage" id="loader-percentage">0%</div>
+      </div>
+    </div>
+
+    <!-- Film Grain Overlay -->
+    <div class="film-grain"></div>
+
+    <!-- Custom Cursor -->
+    <div class="custom-cursor" id="custom-cursor"></div>
+    <div class="custom-cursor-glow" id="custom-cursor-glow">
+      <div class="custom-cursor-text" id="custom-cursor-text">PLAY</div>
+    </div>
+
+    <!-- Mouse follow radial glow blob -->
+    <div class="mouse-bg-glow" id="mouse-glow"></div>
+
+    <!-- Header Navigation -->
+    <header class="header" id="header">
+      <div class="container">
+        <div class="nav-wrapper">
+          <a href="#" class="logo">PREETAM<span>.</span></a>
+          <nav class="nav-links">
+            <a href="#about" class="nav-link">About</a>
+            <a href="#work" class="nav-link">Projects</a>
+            <a href="#services" class="nav-link">Services</a>
+            <a href="#contact" class="nav-cta">Hire Me</a>
+          </nav>
+          <button class="mobile-nav-toggle" id="mobile-toggle" aria-label="Toggle Menu">
+            <i data-lucide="menu"></i>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- Hero Section -->
+      <section class="hero" id="hero-section">
+        <div class="hero-video-container">
+          <video class="hero-bg-video" src="https://assets.mixkit.co/videos/preview/mixkit-cinematic-hands-of-a-video-editor-41484-large.mp4" autoplay loop muted playsinline preload="auto"></video>
+        </div>
+
+        <!-- Floating Glass Elements -->
+        <div class="hero-glass-container">
+          <div class="floating-glass-element glass-el-1"><i data-lucide="sparkles"></i></div>
+          <div class="floating-glass-element glass-el-2"><i data-lucide="video"></i></div>
+          <div class="floating-glass-element glass-el-3"><i data-lucide="film"></i></div>
+        </div>
+        
+        <div class="container">
+          <div class="hero-content">
+            <span class="hero-tagline reveal-up">Video Editor & Motion Artist</span>
+            <h1 class="hero-heading reveal-up">I Create Videos <br>That <span class="text-gradient">Stop The Scroll</span>.</h1>
+            <p class="hero-subheading reveal-up">
+              I help creators, startups, and brands transform raw footage into cinematic, engaging, and high-converting videos through storytelling, motion graphics, and professional editing.
+            </p>
+            <div class="hero-buttons reveal-up">
+              <a href="#work" class="btn btn-primary">View My Work</a>
+              <a href="#contact" class="btn btn-secondary">Hire Me</a>
+            </div>
+            
+            <!-- Hero Stats Bento -->
+            <div class="hero-stats reveal-up">
+              <div class="stat-box glass-card">
+                <div class="stat-number" data-target="50" data-suffix="+">0</div>
+                <div class="stat-label">Projects Completed</div>
+              </div>
+              <div class="stat-box glass-card">
+                <div class="stat-number" data-target="10" data-suffix="M+">0</div>
+                <div class="stat-label">Views Generated</div>
+              </div>
+              <div class="stat-box glass-card">
+                <div class="stat-number" data-target="98" data-suffix="%">0</div>
+                <div class="stat-label">Client Satisfaction</div>
+              </div>
+              <div class="stat-box glass-card">
+                <div class="stat-number" data-target="48" data-suffix=" Hours">0</div>
+                <div class="stat-label">Average Delivery</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Brands worked with Marquee -->
+      <section class="brands-section">
+        <div class="marquee-container">
+          <div class="marquee-content">
+            <div class="marquee-item">INSIGHTKNOX</div>
+            <div class="marquee-item">GALGOTIAS UNIVERSITY</div>
+            <div class="marquee-item">CREATOR STUDIO</div>
+            <div class="marquee-item">ONLINE PROMOTIONS TEAM</div>
+            <div class="marquee-item">BEYOND ADS</div>
+            <div class="marquee-item">DIGITAL MEDIA GROUP</div>
+            <div class="marquee-item">INSIGHTKNOX</div>
+            <div class="marquee-item">GALGOTIAS UNIVERSITY</div>
+            <div class="marquee-item">CREATOR STUDIO</div>
+            <div class="marquee-item">ONLINE PROMOTIONS</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Me & Skills Section -->
+      <section class="about-section section-padding" id="about">
+        <div class="container">
+          <div class="about-grid">
+            <div class="about-visual reveal-left">
+              <!-- Professional portrait of Preetam Singh -->
+              <img src="/src/assets/preetam_portrait_new.jpg" alt="Preetam Singh Portrait" class="about-image" />
+            </div>
+            <div class="about-profile reveal-right">
+              <div class="section-title-wrap">
+                <span class="section-subtitle">The Creator</span>
+                <h2 class="section-title">Who is Preetam Singh?</h2>
+              </div>
+              <h3 class="about-name">Preetam Singh</h3>
+              <div class="about-roles">
+                <span class="role-tag">Professional Video Editor</span>
+                <span class="role-tag">Content Creator</span>
+                <span class="role-tag">Motion Graphics Artist</span>
+              </div>
+              <p class="about-desc">
+                I transform raw footage into engaging stories that capture attention and drive results. From cinematic edits to viral reels, I help creators and brands create videos that people actually watch. I focus heavily on sound design, meticulous color grading, and dynamic motion graphics to make every frame pop.
+              </p>
+              
+              <!-- Centered Skills Grid (Thumbnails card removed) -->
+              <div class="skills-wrap">
+                <h4 class="skills-title">Core Expertise</h4>
+                <div class="skills-grid">
+                  <div class="skill-card">
+                    <div class="skill-icon-placeholder"><i data-lucide="video"></i></div>
+                    <div class="skill-name">Video Editing</div>
+                  </div>
+                  <div class="skill-card">
+                    <div class="skill-icon-placeholder"><i data-lucide="sparkles"></i></div>
+                    <div class="skill-name">Motion Graphics</div>
+                  </div>
+                  <div class="skill-card">
+                    <div class="skill-icon-placeholder"><i data-lucide="aperture"></i></div>
+                    <div class="skill-name">Color Grading</div>
+                  </div>
+                  <div class="skill-card">
+                    <div class="skill-icon-placeholder"><i data-lucide="music-4"></i></div>
+                    <div class="skill-name">Sound Design</div>
+                  </div>
+                  <div class="skill-card">
+                    <div class="skill-icon-placeholder"><i data-lucide="cpu"></i></div>
+                    <div class="skill-name">AI Video Tools</div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Featured Projects Section (Extended to 8 items, Case study triggers removed) -->
+      <section class="projects-section section-padding" id="work">
+        <div class="container">
+          <div class="projects-header">
+            <div class="section-title-wrap">
+              <span class="section-subtitle">My Portfolio</span>
+              <h2 class="section-title">Featured Creations</h2>
+            </div>
+          </div>
+          
+          <!-- Centered Filter Menu -->
+          <div class="filter-menu-row reveal-up" style="margin-bottom: 50px;">
+            <div class="filter-menu">
+              <button class="filter-btn active" data-filter="reels">Short Form / Reels</button>
+              <button class="filter-btn" data-filter="long">Long Videos</button>
+            </div>
+          </div>
+
+          <div class="projects-grid">
+            <!-- Project Card 1: Short Form -->
+            <a href="https://www.instagram.com/reel/DXE24ABk7en/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank" rel="noopener noreferrer" class="project-card reveal-up" data-category="reels">
+              <div class="project-media-wrap">
+                <img src="/Thumbanail/darshan edit.png" alt="Darshan Rawal at Unifest" class="project-thumbnail" />
+                <div class="project-overlay-meta">01:05</div>
+              </div>
+              <div class="project-details">
+                <h3 class="project-title">Darshan Rawal at Unifest</h3>
+                <div class="project-card-meta-row" style="display: flex; gap: 15px; margin-top: 5px; font-size: 0.85rem; font-family: var(--font-sans); font-weight: 500;">
+                  <span style="color: var(--accent-blue);">Duration: 01:05</span>
+                  <span style="color: var(--text-secondary); display: flex; align-items: center; gap: 4px;">
+                    <i data-lucide="heart" style="width: 13px; height: 13px; color: #EF4444; fill: #EF4444;"></i>
+                    3.9K Likes
+                  </span>
+                </div>
+              </div>
+            </a>
+
+            <!-- Project Card 2: Short Form -->
+            <a href="https://youtu.be/mI-qg6TgGlA?si=npr7111KZwZOHXDU" target="_blank" rel="noopener noreferrer" class="project-card reveal-up" data-category="reels">
+              <div class="project-media-wrap">
+                <img src="/Thumbanail/edit 1.png" alt="Carbon Credit Market Explained" class="project-thumbnail" />
+                <div class="project-overlay-meta">0:31</div>
+              </div>
+              <div class="project-details">
+                <h3 class="project-title">Carbon Credit Market Explained</h3>
+                <div class="project-card-meta-row" style="display: flex; gap: 15px; margin-top: 5px; font-size: 0.85rem; font-family: var(--font-sans); font-weight: 500;">
+                  <span style="color: var(--accent-blue);">Duration: 0:31</span>
+                  <span style="color: var(--text-secondary); display: flex; align-items: center; gap: 4px;">
+                    <i data-lucide="heart" style="width: 13px; height: 13px; color: #EF4444; fill: #EF4444;"></i>
+                    284 Likes
+                  </span>
+                </div>
+              </div>
+            </a>
+
+            <!-- Project Card 3: Short Form -->
+            <a href="https://youtu.be/RZDXju5D5wo?si=DY-NM5cabtPUWuM2" target="_blank" rel="noopener noreferrer" class="project-card reveal-up" data-category="reels">
+              <div class="project-media-wrap">
+                <img src="/Thumbanail/edit 2.png" alt="Want to know if Nifty will open Gap Up or Gap Down tomorrow?" class="project-thumbnail" />
+                <div class="project-overlay-meta">0:27</div>
+              </div>
+              <div class="project-details">
+                <h3 class="project-title">Want to know if Nifty will open Gap Up or Gap Down tomorrow?</h3>
+                <div class="project-card-meta-row" style="display: flex; gap: 15px; margin-top: 5px; font-size: 0.85rem; font-family: var(--font-sans); font-weight: 500;">
+                  <span style="color: var(--accent-blue);">Duration: 0:27</span>
+                  <span style="color: var(--text-secondary); display: flex; align-items: center; gap: 4px;">
+                    <i data-lucide="heart" style="width: 13px; height: 13px; color: #EF4444; fill: #EF4444;"></i>
+                    156 Likes
+                  </span>
+                </div>
+              </div>
+            </a>
+
+            <!-- Project Card 4: Long Form -->
+            <a href="https://www.instagram.com/reel/Dds4zqsybcy/?utm_source=ig_web_copy_link&stkn=NTc4MTIwNjQ2YQ==" target="_blank" rel="noopener noreferrer" class="project-card reveal-up" data-category="long">
+              <div class="project-media-wrap">
+                <img src="/Thumbanail/15 year.png" alt="15 Years. Countless Memories. One UNIFEST" class="project-thumbnail" />
+                <div class="project-overlay-meta">15:05</div>
+              </div>
+              <div class="project-details">
+                <h3 class="project-title">15 Years. Countless Memories. One UNIFEST</h3>
+                <div class="project-card-meta-row" style="display: flex; gap: 15px; margin-top: 5px; font-size: 0.85rem; font-family: var(--font-sans); font-weight: 500;">
+                  <span style="color: var(--accent-blue);">Duration: 15:05</span>
+                  <span style="color: var(--text-secondary); display: flex; align-items: center; gap: 4px;">
+                    <i data-lucide="heart" style="width: 13px; height: 13px; color: #EF4444; fill: #EF4444;"></i>
+                    1.7K Likes
+                  </span>
+                </div>
+              </div>
+            </a>
+
+            <!-- Project Card 5: Long Form -->
+            <a href="https://www.instagram.com/reel/DGDCQSTzQm4/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank" rel="noopener noreferrer" class="project-card reveal-up" data-category="long">
+              <div class="project-media-wrap">
+                <img src="/Thumbanail/ai block.png" alt="India's First AI & Data Science Block is Here" class="project-thumbnail" />
+                <div class="project-overlay-meta">12:35</div>
+              </div>
+              <div class="project-details">
+                <h3 class="project-title">India's First AI & Data Science Block is Here</h3>
+                <div class="project-card-meta-row" style="display: flex; gap: 15px; margin-top: 5px; font-size: 0.85rem; font-family: var(--font-sans); font-weight: 500;">
+                  <span style="color: var(--accent-blue);">Duration: 12:35</span>
+                  <span style="color: var(--text-secondary); display: flex; align-items: center; gap: 4px;">
+                    <i data-lucide="heart" style="width: 13px; height: 13px; color: #EF4444; fill: #EF4444;"></i>
+                    1.5K Likes
+                  </span>
+                </div>
+              </div>
+            </a>
+
+            <!-- Project Card 6: Long Form -->
+            <a href="https://youtu.be/qlz4iPPLrZg" target="_blank" rel="noopener noreferrer" class="project-card reveal-up" data-category="long">
+              <div class="project-media-wrap">
+                <img src="/Thumbanail/2 year.png" alt="1 Year of G-Scale" class="project-thumbnail" />
+                <div class="project-overlay-meta">4:45</div>
+              </div>
+              <div class="project-details">
+                <h3 class="project-title">1 Year of G-Scale | A Journey of Innovation, Growth & Dreams 🌟🎓</h3>
+                <div class="project-card-meta-row" style="display: flex; gap: 15px; margin-top: 5px; font-size: 0.85rem; font-family: var(--font-sans); font-weight: 500;">
+                  <span style="color: var(--accent-blue);">Duration: 4:45</span>
+                  <span style="color: var(--text-secondary); display: flex; align-items: center; gap: 4px;">
+                    <i data-lucide="heart" style="width: 13px; height: 13px; color: #EF4444; fill: #EF4444;"></i>
+                    5.6K Likes
+                  </span>
+                </div>
+              </div>
+            </a>
+
+            <!-- Project Card 7: Long Form -->
+            <a href="https://www.instagram.com/reel/DX__VEZTscZ/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank" rel="noopener noreferrer" class="project-card reveal-up" data-category="long">
+              <div class="project-media-wrap">
+                <img src="/Thumbanail/bts.png" alt="The Untold Story Behind UNIFEST 2K26" class="project-thumbnail" />
+                <div class="project-overlay-meta">5:52</div>
+              </div>
+              <div class="project-details">
+                <h3 class="project-title">The Untold Story Behind UNIFEST 2K26.</h3>
+                <div class="project-card-meta-row" style="display: flex; gap: 15px; margin-top: 5px; font-size: 0.85rem; font-family: var(--font-sans); font-weight: 500;">
+                  <span style="color: var(--accent-blue);">Duration: 5:52</span>
+                  <span style="color: var(--text-secondary); display: flex; align-items: center; gap: 4px;">
+                    <i data-lucide="heart" style="width: 13px; height: 13px; color: #EF4444; fill: #EF4444;"></i>
+                    365 Likes
+                  </span>
+                </div>
+              </div>
+            </a>
+
+            <!-- Project Card 8: Long Form -->
+            <a href="https://www.instagram.com/reel/DV1IP2QiapR/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank" rel="noopener noreferrer" class="project-card reveal-up" data-category="long">
+              <div class="project-media-wrap">
+                <img src="/Thumbanail/promotion.png" alt="Every Great Festival Begins with a Feeling" class="project-thumbnail" />
+                <div class="project-overlay-meta">1:22</div>
+              </div>
+              <div class="project-details">
+                <h3 class="project-title">Every Great Festival Begins with a Feeling.</h3>
+                <div class="project-card-meta-row" style="display: flex; gap: 15px; margin-top: 5px; font-size: 0.85rem; font-family: var(--font-sans); font-weight: 500;">
+                  <span style="color: var(--accent-blue);">Duration: 1:22</span>
+                  <span style="color: var(--text-secondary); display: flex; align-items: center; gap: 4px;">
+                    <i data-lucide="heart" style="width: 13px; height: 13px; color: #EF4444; fill: #EF4444;"></i>
+                    684 Likes
+                  </span>
+                </div>
+              </div>
+            </a>
+
+          </div>
+        </div>
+      </section>
+
+
+
+      <!-- Editing Process Roadmap -->
+      <section class="process-section section-padding" id="process">
+        <div class="container">
+          <div class="section-title-wrap">
+            <span class="section-subtitle">How I Work</span>
+            <h2 class="section-title">The Editing Process</h2>
+          </div>
+
+          <div class="process-grid">
+            <div class="process-card glass-card reveal-up">
+              <div class="process-step">01</div>
+              <h3 class="process-name">Discovery</h3>
+              <p class="process-desc">We discuss your vision, visual styling, target audience, references, goals, and script outline.</p>
+            </div>
+            
+            <div class="process-card glass-card reveal-up">
+              <div class="process-step">02</div>
+              <h3 class="process-name">Planning</h3>
+              <p class="process-desc">Sorting footage, indexing timelines, storyboarding dynamic flow, and selecting backing music tracks.</p>
+            </div>
+
+            <div class="process-card glass-card reveal-up">
+              <div class="process-step">03</div>
+              <h3 class="process-name">Rough Cut</h3>
+              <p class="process-desc">Piecing together the narrative structure, choosing the best takes, and pacing to match music rhythms.</p>
+            </div>
+
+            <div class="process-card glass-card reveal-up">
+              <div class="process-step">04</div>
+              <h3 class="process-name">Motion Graphics</h3>
+              <p class="process-desc">Creating modern animated text overlays, titles, shape layers, call-outs, and VFX composite scenes.</p>
+            </div>
+
+            <div class="process-card glass-card reveal-up">
+              <div class="process-step">05</div>
+              <h3 class="process-name">Color Grading</h3>
+              <p class="process-desc">Balancing exposure, color correction, and applying a cohesive luxury LUT grade for cinematic vibe.</p>
+            </div>
+
+            <div class="process-card glass-card reveal-up">
+              <div class="process-step">06</div>
+              <h3 class="process-name">Sound Design</h3>
+              <p class="process-desc">Adding ambient soundscapes, foley clicks, swooshes, sub-hits, audio leveling, and vocal EQ enhancements.</p>
+            </div>
+
+            <div class="process-card glass-card reveal-up">
+              <div class="process-step">07</div>
+              <h3 class="process-name">Delivery</h3>
+              <p class="process-desc">Final rendering in optimized web resolutions, exports for diverse aspect ratios, and file hand-off.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Upgraded Services Pricing Cards Section (Pricing details removed) -->
+      <section class="services-section section-padding" id="services">
+        <div class="container">
+          <div class="section-title-wrap text-center">
+            <span class="section-subtitle">Services</span>
+            <h2 class="section-title">Creative Editing Packages</h2>
+          </div>
+
+          <div class="pricing-grid">
+            <!-- Pricing 1: Short Form -->
+            <div class="pricing-card glass-card reveal-up">
+              <div class="pricing-head">
+                <h3 class="pricing-name">Instagram Reels & Shorts</h3>
+                <div class="pricing-delivery">Delivery: 24 Hours</div>
+                <p class="pricing-best-for">Best for creators seeking rapid viral loop engagement.</p>
+              </div>
+              <ul class="pricing-features-list">
+                <li class="pricing-feature-item"><i data-lucide="check"></i> Dynamic Custom Subtitles</li>
+                <li class="pricing-feature-item"><i data-lucide="check"></i> Foley Sound Design</li>
+                <li class="pricing-feature-item"><i data-lucide="check"></i> Emojis & Graphic Overlays</li>
+                <li class="pricing-feature-item"><i data-lucide="check"></i> Meticulous Pacing & Trims</li>
+              </ul>
+              <div class="pricing-footer">
+                <a href="#contact" class="btn btn-secondary pricing-action-btn">Get Started</a>
+              </div>
+            </div>
+
+            <!-- Pricing 2: YouTube / Long Form -->
+            <div class="pricing-card glass-card popular reveal-up">
+              <span class="pricing-card-badge">Popular</span>
+              <div class="pricing-head">
+                <h3 class="pricing-name">Long Form Content</h3>
+                <div class="pricing-delivery">Delivery: 3-5 Days</div>
+                <p class="pricing-best-for">Best for educational vlogs & documentary content.</p>
+              </div>
+              <ul class="pricing-features-list">
+                <li class="pricing-feature-item"><i data-lucide="check"></i> Cohesive Story Structuring</li>
+                <li class="pricing-feature-item"><i data-lucide="check"></i> B-Roll Layout Integration</li>
+                <li class="pricing-feature-item"><i data-lucide="check"></i> Advanced Multi-Cam Sync</li>
+                <li class="pricing-feature-item"><i data-lucide="check"></i> Audio Leveling & EQ Mix</li>
+                <li class="pricing-feature-item"><i data-lucide="check"></i> Custom Lower Thirds</li>
+              </ul>
+              <div class="pricing-footer">
+                <a href="#contact" class="btn btn-primary pricing-action-btn">Get Started</a>
+              </div>
+            </div>
+
+            <!-- Pricing 3: Commercial Ads -->
+            <div class="pricing-card glass-card reveal-up">
+              <div class="pricing-head">
+                <h3 class="pricing-name">Commercial & Brand Ads</h3>
+                <div class="pricing-delivery">Delivery: 2-3 Days</div>
+                <p class="pricing-best-for">Best for startups and e-commerce marketing campaigns.</p>
+              </div>
+              <ul class="pricing-features-list">
+                <li class="pricing-feature-item"><i data-lucide="check"></i> Luxury Cinematic LUT Grade</li>
+                <li class="pricing-feature-item"><i data-lucide="check"></i> Premium Custom Sound FX</li>
+                <li class="pricing-feature-item"><i data-lucide="check"></i> 3D Motion Title Openers</li>
+                <li class="pricing-feature-item"><i data-lucide="check"></i> Full 4K High Bitrate Export</li>
+                <li class="pricing-feature-item"><i data-lucide="check"></i> Commercial Licensing</li>
+              </ul>
+              <div class="pricing-footer">
+                <a href="#contact" class="btn btn-secondary pricing-action-btn">Get Started</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Software Stack Section (Only Premiere Pro and CapCut centered) -->
+      <section class="stack-section section-padding" id="stack">
+        <div class="container">
+          <div class="stack-wrapper">
+            <div class="stack-desc reveal-left">
+              <div class="section-title-wrap">
+                <span class="section-subtitle">My Arsenal</span>
+                <h2 class="section-title">The Software Stack</h2>
+              </div>
+              <p class="about-desc">
+                I leverage industry-standard video, sound, and graphics software to craft visual masterpieces. Using the correct tool for each phase guarantees the highest export quality and limitless creative freedom.
+              </p>
+            </div>
+            
+            <div class="stack-grid reveal-right">
+              <div class="stack-item">
+                <div class="stack-item-icon"><i data-lucide="film"></i></div>
+                <span class="stack-item-name">Adobe Premiere Pro</span>
+              </div>
+              <div class="stack-item">
+                <div class="stack-item-icon"><i data-lucide="smartphone"></i></div>
+                <span class="stack-item-name">CapCut Pro</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Trust Collaborators Section -->
+      <section class="trust-section" id="trust">
+        <div class="container">
+          <div class="section-title-wrap text-center">
+            <span class="section-subtitle">Collaborators</span>
+            <h2 class="section-title">Trusted By</h2>
+          </div>
+          
+          <div class="trust-marquee-wrapper">
+            <!-- Row 1: Startups & Creators -->
+            <div class="trust-marquee">
+              <div class="trust-marquee-track">
+                <div class="trust-logo-card"><i data-lucide="cpu"></i> TECHVENTURE</div>
+                <div class="trust-logo-card"><i data-lucide="sparkles"></i> CREATOR STUDIO</div>
+                <div class="trust-logo-card"><i data-lucide="play"></i> STREAMFLOW</div>
+                <div class="trust-logo-card"><i data-lucide="rocket"></i> LAUNCHPAD</div>
+                <div class="trust-logo-card"><i data-lucide="tv"></i> MEDIALOOP</div>
+                <!-- Duplicate for loop -->
+                <div class="trust-logo-card"><i data-lucide="cpu"></i> TECHVENTURE</div>
+                <div class="trust-logo-card"><i data-lucide="sparkles"></i> CREATOR STUDIO</div>
+                <div class="trust-logo-card"><i data-lucide="play"></i> STREAMFLOW</div>
+                <div class="trust-logo-card"><i data-lucide="rocket"></i> LAUNCHPAD</div>
+                <div class="trust-logo-card"><i data-lucide="tv"></i> MEDIALOOP</div>
+              </div>
+            </div>
+            
+            <!-- Row 2: Agencies & Brands -->
+            <div class="trust-marquee">
+              <div class="trust-marquee-track reverse">
+                <div class="trust-logo-card"><i data-lucide="globe"></i> BEYOND ADS</div>
+                <div class="trust-logo-card"><i data-lucide="award"></i> PRIMEFOCUS</div>
+                <div class="trust-logo-card"><i data-lucide="aperture"></i> INSIGHTKNOX</div>
+                <div class="trust-logo-card"><i data-lucide="volume-2"></i> SOCIALPULSE</div>
+                <div class="trust-logo-card"><i data-lucide="activity"></i> ONLINE PROMOTIONS TEAM</div>
+                <!-- Duplicate for loop -->
+                <div class="trust-logo-card"><i data-lucide="globe"></i> BEYOND ADS</div>
+                <div class="trust-logo-card"><i data-lucide="award"></i> PRIMEFOCUS</div>
+                <div class="trust-logo-card"><i data-lucide="aperture"></i> INSIGHTKNOX</div>
+                <div class="trust-logo-card"><i data-lucide="volume-2"></i> SOCIALPULSE</div>
+                <div class="trust-logo-card"><i data-lucide="activity"></i> ONLINE PROMOTIONS TEAM</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section class="contact-section section-padding" id="contact">
+        <div class="container">
+          <div class="contact-grid">
+            <div class="contact-info reveal-left">
+              <span class="section-subtitle">Get In Touch</span>
+              <h2 class="contact-title">Let's Create <br>Something <br><span class="text-gradient">Amazing.</span></h2>
+              <p class="contact-sub">
+                Whether you're building a brand, growing your YouTube channel, or launching your next campaign, I'd love to help bring your vision to life.
+              </p>
+              <div class="contact-details-list">
+                <div class="contact-detail-item">
+                  <div class="contact-icon-box"><i data-lucide="mail"></i></div>
+                  <a href="#" id="contact-email-text">Loading email...</a>
+                </div>
+                <div class="contact-detail-item">
+                  <div class="contact-icon-box"><i data-lucide="map-pin"></i></div>
+                  <span id="contact-location-text">Loading location...</span>
+                </div>
+              </div>
+
+              <!-- Quick Action Contact Buttons -->
+              <div class="contact-action-row">
+                <a href="#" target="_blank" rel="noopener noreferrer" class="quick-contact-btn whatsapp-btn" id="contact-whatsapp-btn">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16"><path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.977h.004c4.368 0 7.926-3.558 7.93-7.93A7.897 7.897 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.69-4.98c-.197-.1-.1.115-.439-.233-.043-.045-.078-.087-.1-.123-.075-.121-.183-.39-.183-.39-.028-.063-.053-.122-.075-.174-.183-.438-.344-.6-.44-.7-.096-.1-.233-.2-.233-.2s-.08-.091-.148-.15c-.067-.06-.115-.088-.172-.088s-.204.02-.32.08c-.116.06-.525.263-.733.472-.208.208-.439.467-.533.682-.093.216-.145.45-.145.45s-.086.17-.183.334c-.097.164-.204.307-.315.438a7.54 7.54 0 0 1-1.637 1.45 6.46 6.46 0 0 1-.95.539s-.14.067-.234.116c-.093.048-.158.066-.233.066-.184 0-.323-.119-.44-.225a6.452 6.452 0 0 1-.58-.61s-.075-.094-.138-.174c-.062-.08-.108-.135-.164-.233-.19-.333-.3-.728-.3-1.127 0-.399.11-.8.328-1.144.208-.328.528-.617.822-.822.093-.066.19-.133.284-.19a5.15 5.15 0 0 1 .45-.234c.094-.048.163-.066.233-.066.07 0 .158.018.233.066.075.048.14.094.234.174s.138.135.213.233c.196.257.371.554.512.871.14.317.228.665.25.992.02.327-.043.626-.176.897-.133.27-.333.5-.53.682s-.396.347-.5.5c-.1.15-.148.334-.148.334.02.05.045.105.075.163.062.121.148.243.25.371.1.127.208.243.324.35a7.58 7.58 0 0 0 1.94 1.34c.156.073.307.135.456.183.183.06.39-.015.53-.122a7.12 7.12 0 0 0 .5-.472c.15-.156.246-.307.33-.456.084-.149.123-.306.123-.456 0-.15-.039-.307-.123-.456-.084-.149-.246-.307-.33-.456a6.83 6.83 0 0 0-.5-.472c-.11-.1-.17-.234-.17-.371 0-.137.06-.271.17-.371a5.67 5.67 0 0 1 .5-.472c.11-.1.218-.184.33-.25.112-.066.223-.116.33-.15a.99.99 0 0 1 .324-.066c.11 0 .21.018.3.066.09.048.168.106.233.174.195.204.382.428.553.673.17.245.298.513.382.793.084.28.118.572.1.86a2.82 2.82 0 0 1-.225.864c-.114.284-.287.534-.5.733-.213.2-.456.347-.733.44a3.15 3.15 0 0 1-.897.133 3.09 3.09 0 0 1-1.12-.225c-.328-.133-.616-.328-.864-.582a8.03 8.03 0 0 1-1.92-2.82c-.22-.572-.338-1.22-.338-1.897 0-.677.118-1.325.338-1.897a8.03 8.03 0 0 1 1.92-2.82c.248-.254.536-.449.864-.582.328-.133.69-.225 1.12-.225.43 0 .792.092 1.12.225s.616.328.864.582c.504.512.871 1.14 1.096 1.83.225.69.338 1.436.338 2.213 0 .777-.113 1.523-.338 2.213a7.84 7.84 0 0 1-1.096 1.83c-.248.254-.536.449-.864.582s-.69.225-1.12.225z"/></svg>
+                    WhatsApp
+                </a>
+                <a href="#" class="quick-contact-btn email-btn" id="contact-direct-email-btn">
+                  <i data-lucide="mail"></i> Direct Email
+                </a>
+              </div>
+              
+              <!-- Social Icons Grid -->
+              <div class="social-links-grid">
+                <a href="#" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="Instagram" id="contact-instagram-link">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-instagram"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
+                </a>
+                <a href="#" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="LinkedIn" id="contact-linkedin-link">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-linkedin"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
+                </a>
+                <a href="#" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="YouTube" id="contact-youtube-link">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-youtube"><path d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17z"/><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"/></svg>
+                </a>
+                <a href="#" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="Behance" id="contact-behance-link">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16"><path d="M4.654 3c.419 0 .733.089.941.268.208.18.313.43.313.75 0 .195-.042.372-.128.532a.98.98 0 0 1-.362.365c-.174.095-.35.163-.53.204.468.137.813.385 1.036.745.223.36.334.78.334 1.26 0 .588-.178 1.045-.536 1.372-.358.326-.88.489-1.564.489H0v-5.74h4.654zm-2.07 2.152h1.724c.328 0 .584-.06.768-.182.185-.12.278-.309.278-.564 0-.251-.09-.43-.271-.539-.18-.109-.444-.163-.79-.163h-1.71v1.448zm0 2.235h1.86c.334 0 .59-.064.767-.19.178-.13.267-.333.267-.607 0-.265-.091-.453-.274-.564-.183-.11-.462-.166-.837-.166h-1.776v1.527zm6.75-2.235c.427 0 .809.078 1.144.234.336.156.608.384.817.683.208.3.313.672.313 1.116H8.847c.012.396.115.698.309.907.193.208.485.313.874.313.344 0 .618-.058.822-.172.203-.114.37-.308.5-.583h.975c-.156.533-.483.957-.981 1.274-.5.317-1.127.476-1.882.476-.69 0-1.272-.158-1.746-.475-.473-.317-.83-.76-1.071-1.328-.24-.569-.362-1.226-.362-1.973 0-.742.122-1.401.367-1.977.245-.575.61-1.02 1.096-1.334.487-.315 1.078-.472 1.774-.472zm-.095.8c-.375 0-.674.11-.897.33-.223.22-.34.543-.35.97h2.472c-.012-.422-.116-.738-.311-.949-.195-.211-.5-.317-.914-.317zm-.59-2.222h3.5v.695h-3.5v-.695z"/></svg>
+                </a>
+              </div>
+            </div>
+
+            <!-- Form Block -->
+            <div class="contact-form-wrap glass-card reveal-right">
+              <form class="contact-form" id="portfolio-contact-form" novalidate>
+                <div class="form-group-row">
+                  <div class="form-group">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" id="name" class="form-input" placeholder="Your Name" required />
+                  </div>
+                  <div class="form-group">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" id="email" class="form-input" placeholder="Your Email" required />
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="project-type" class="form-label">Project Type</label>
+                  <select id="project-type" class="form-select" required>
+                    <option value="" disabled selected>Select Project Type</option>
+                    <option value="reels">Short Form Reels</option>
+                    <option value="youtube">YouTube Content</option>
+                    <option value="commercial">Commercial Ad Film</option>
+                    <option value="other">Other</option>
+                  </select>
+                </div>
+
+                <div class="form-group">
+                  <label for="message" class="form-label">Message</label>
+                  <textarea id="message" class="form-textarea" placeholder="Tell me about your video project goals..." required></textarea>
+                </div>
+
+                <div class="submit-btn-wrap">
+                  <button type="submit" class="submit-btn">Send Message</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Bold Cinematic Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="bold-footer-content">
+          <h2 class="huge-footer-heading">
+            <span>Let's Build</span>
+            <span>Your Next</span>
+            <span class="text-gradient">Viral Video.</span>
+          </h2>
+          <a href="#contact" class="btn btn-primary btn-book-call" id="btn-book-call">Book a Call</a>
+        </div>
+        
+        <div class="footer-wrapper">
+          <div class="footer-copyright">
+            &copy; 2026 Preetam Singh. All Rights Reserved. Built with Awwwards Style.
+          </div>
+          <div class="footer-links">
+            <a href="#about" class="footer-link">About</a>
+            <a href="#work" class="footer-link">Work</a>
+            <a href="#services" class="footer-link">Services</a>
+            <a href="#contact" class="footer-link">Contact</a>
+          </div>
+          <a href="#" class="back-to-top" id="back-to-top" aria-label="Back to Top">
+            <i data-lucide="arrow-up"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Video Modal Player -->
+    <div class="video-modal" id="video-modal">
+      <button class="video-modal-close" id="modal-close" aria-label="Close Video">
+        <i data-lucide="x"></i>
+      </button>
+      <div class="video-modal-container">
+        <video class="video-modal-iframe" id="modal-video" controls autoplay playsinline></video>
+      </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/lucide/dist/umd/lucide.js"></script>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
